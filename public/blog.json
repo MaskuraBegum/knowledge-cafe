@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co/yPn3Qzn/retrosupply-j-Lw-VAUt-LOAQ-unsplash.jpg",
+      "title": "Lorem Ipsum",
+      "author": "John Doe",
+      "author_img": "https://example.com/author1.jpg",
+      "posted_date": "2024-03-15",
+      "reading_time": 10,
+      "hashtags": ["programming", "javascript", "webdev"]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co/6ZGBSYX/sigmund-Fa9b57hffn-M-unsplash.jpg",
+      "title": "Dolor Sit Amet",
+      "author": "Jane Smith",
+      "author_img": "https://example.com/author2.jpg",
+      "posted_date": "2024-03-14",
+      "reading_time": 8,
+      "hashtags": ["design", "ui/ux", "creativity"]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co/7VygVjT/andrew-neel-cckf4-Ts-HAuw-unsplash.jpg",
+      "title": "Consectetur Adipiscing",
+      "author": "Alex Johnson",
+      "author_img": "https://example.com/author3.jpg",
+      "posted_date": "2024-03-13",
+      "reading_time": 12,
+      "hashtags": ["technology", "science", "innovation"]
+    }
+  ]
+  
