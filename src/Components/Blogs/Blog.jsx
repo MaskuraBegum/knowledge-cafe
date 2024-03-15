@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import Detail from "../details/Detail";
 
 
 const Blog = () => {
@@ -8,11 +9,12 @@ const Blog = () => {
     useEffect(()=>{
         fetch('blog.json')
         .then(res => res.json())
-        .then(data => console.log(data))
+        .then(data => setblog(data))
     },[])
     return (
-        <div>
-            
+        <div className="w-full lg:w-2/3">
+            <h1 className="text-2xl">Blogs:{blog.length}</h1>
+            <Detail Detail={blog}></Detail>
         </div>
     );
 };
