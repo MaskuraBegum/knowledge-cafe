@@ -14,7 +14,9 @@ const Blog = () => {
     return (
         <div className="w-full lg:w-2/3">
             <h1 className="text-2xl">Blogs:{blog.length}</h1>
-            <Detail Detail={blog}></Detail>
+            {
+                blog.map(blog => <Detail key={blog.id} blog={blog}></Detail>)
+            }
         </div>
     );
 };
